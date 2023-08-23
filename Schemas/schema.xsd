@@ -1,0 +1,36 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="dados">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="linha" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:positiveInteger"/>
+              <xs:element name="Nome" type="xs:string"/>
+              <xs:element name="Estrelas">
+                <xs:simpleType>
+                  <xs:restriction base="xs:integer">
+                    <xs:minInclusive value="1"/>
+                    <xs:maxInclusive value="5"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Area">
+                <xs:simpleType>
+                  <xs:list itemType="xs:string"/>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Endereco" type="xs:string"/>
+              <xs:element name="Distancia" type="xs:decimal" minOccurs="0"/>
+              <xs:element name="Disponibilidade">
+                <xs:simpleType>
+                  <xs:restriction base="xs:boolean"/>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
