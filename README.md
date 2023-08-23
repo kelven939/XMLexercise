@@ -1,4 +1,8 @@
 # XMLexercise
+# Sites usados para a formatação dos documentos:
+# https://freeformatter.com
+# https://ideone.com/9QvzXt
+
 # Para Diferenca entre HTML e o XML:
 # Explicação das partes dos códigos
 # a) Transformando a tabela em um documento HTML:
