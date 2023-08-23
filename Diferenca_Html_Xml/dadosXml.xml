@@ -1,0 +1,40 @@
+<!DOCTYPE dados SYSTEM "dados.dtd">
+<!-- Documento XML referenciando o DTD externo -->
+<dados>
+  <linha>
+    <ID>1</ID>
+    <Nome>Tivoli</Nome>
+    <Estrelas>2</Estrelas>
+    <Area>Internet</Area>
+    <Endereco>Beira</Endereco>
+    <Distancia>0.2</Distancia>
+    <Disponibilidade>True</Disponibilidade>
+  </linha>
+  <linha>
+    <ID>2</ID>
+    <Nome>Moçambique</Nome>
+    <Estrelas>4</Estrelas>
+    <Area>Ginásio</Area>
+    <Endereco>Baixa</Endereco>
+    <Distancia>0.3</Distancia>
+    <Disponibilidade>False</Disponibilidade>
+  </linha>
+  <linha>
+    <ID>3</ID>
+    <Nome>Sena</Nome>
+    <Estrelas>5</Estrelas>
+    <Area>Restaurante</Area>
+    <Endereco>Macuti</Endereco>
+    <Distancia>3</Distancia>
+    <Disponibilidade>False</Disponibilidade>
+  </linha>
+  <linha>
+    <ID>4</ID>
+    <Nome>Vip</Nome>
+    <Estrelas>3</Estrelas>
+    <Area>Parqueamento</Area>
+    <Endereco>Chaimite</Endereco>
+    <Distancia>0.6</Distancia>
+    <Disponibilidade>True</Disponibilidade>
+  </linha>
+</dados>

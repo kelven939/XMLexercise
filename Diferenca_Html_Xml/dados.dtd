@@ -1,0 +1,9 @@
+<!ELEMENT dados (linha+)>
+<!ELEMENT linha (ID, Nome, Estrelas, Area, Endereco, Distancia, Disponibilidade)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT Nome (#PCDATA)>
+<!ELEMENT Estrelas (#PCDATA)>
+<!ELEMENT Area (#PCDATA)>
+<!ELEMENT Endereco (#PCDATA)>
+<!ELEMENT Distancia (#PCDATA)>
+<!ELEMENT Disponibilidade (#PCDATA)>
